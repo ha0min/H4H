@@ -102,10 +102,10 @@
   <object id="4" name="startpoint" type="start" x="640.599" y="66.1312">
    <point/>
   </object>
-  <object id="6" name="EV-STU2" x="572.603" y="215.068">
+  <object id="6" name="EV-STU2" x="304.11" y="343.835">
    <point/>
   </object>
-  <object id="7" name="EV-STU1" x="623.288" y="215.068">
+  <object id="7" name="EV-STU1" x="338.356" y="343.835">
    <point/>
   </object>
   <object id="8" name="EV-PRO" x="278.082" y="147.945">
