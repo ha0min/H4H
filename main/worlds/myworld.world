@@ -27,6 +27,13 @@
             "width": 960,
             "x": -960,
             "y": 0
+        },
+        {
+            "fileName": "maps/park.tmx",
+            "height": 640,
+            "width": 800,
+            "x": 800,
+            "y": 0
         }
     ],
     "onlyShowAdjacentMaps": false,
