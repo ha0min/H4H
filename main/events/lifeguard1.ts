@@ -70,7 +70,7 @@ export default class LifeGuardEvent extends RpgEvent {
         talkWith: this,
       }
     );
-    await player.changeMap('Poolflashback', { x: 657, y: 400 });
+    await player.changeMap('Poolflashback', { x: 810, y: 40 });
 
   }
 }

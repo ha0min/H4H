@@ -118,12 +118,12 @@
  </tile>
  <tile id="91">
   <properties>
-   <property name="collision" type="bool" value="false"/>
+   <property name="z" type="int" value="1"/>
   </properties>
  </tile>
  <tile id="92">
   <properties>
-   <property name="collision" type="bool" value="false"/>
+   <property name="z" type="int" value="1"/>
   </properties>
  </tile>
  <tile id="93">
@@ -224,6 +224,11 @@
  <tile id="329">
   <properties>
    <property name="z" type="int" value="1"/>
+  </properties>
+ </tile>
+ <tile id="330">
+  <properties>
+   <property name="collision" type="bool" value="true"/>
   </properties>
  </tile>
  <tile id="336">
