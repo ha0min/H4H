@@ -279,7 +279,11 @@
  <tile id="211"/>
  <tile id="212"/>
  <tile id="213"/>
- <tile id="214"/>
+ <tile id="214">
+  <properties>
+   <property name="collision" type="bool" value="true"/>
+  </properties>
+ </tile>
  <tile id="215"/>
  <tile id="216"/>
  <tile id="217"/>
@@ -303,7 +307,11 @@
  <tile id="227"/>
  <tile id="228"/>
  <tile id="229"/>
- <tile id="230"/>
+ <tile id="230">
+  <properties>
+   <property name="collision" type="bool" value="true"/>
+  </properties>
+ </tile>
  <tile id="231"/>
  <tile id="232"/>
  <tile id="233"/>

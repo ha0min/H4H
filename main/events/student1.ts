@@ -3,8 +3,8 @@ import { RpgEvent, EventData, RpgPlayer } from '@rpgjs/server'
 @EventData({
     name: 'EV-STU1', 
     hitbox: {
-        width: 20,
-        height: 16
+        width: 50,
+        height: 36
     }
 })
 export default class StudentEvent extends RpgEvent {
