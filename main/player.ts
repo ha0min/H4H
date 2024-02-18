@@ -5,7 +5,7 @@ const player: RpgPlayerHooks = {
         player.name = 'Zoe'
         player.setComponentsTop<any>([
             Components.text('{name}'),
-            // Components.hpBar({}, '{$percent}%')
+            Components.hpBar({}, '{$null}')
         ])
     },
     onInput(player: RpgPlayer, { input }) {
@@ -18,10 +18,9 @@ const player: RpgPlayerHooks = {
             return
         }
         await player.showText('Welcome to the Journey of Zoe!');
-        await player.showText('In this adventure, you will step into the shoes of Zoe, navigating her world and uncovering the layers of her story. It\'s a journey of discovery, resilience, and understanding.');
-        await player.showText('As you progress, you will encounter challenges and choices that reveal Zoe\'s trauma history. This game aims to offer insights into the complexities of trauma and the path toward healing.');
-        await player.showText('Your decisions will shape the course of Zoe\'s story, offering a deeply personal exploration of its themes. We encourage you to engage with the story at your own pace, reflect on the experiences presented, and consider their impact.');
-        await player.showText('This game is part of a larger conversation about trauma, empathy, and healing. We hope it serves as a meaningful addition to your understanding of these important topics.');
+        await player.showText('In this adventure, you will step into the shoes of Zoe, navigating her world and uncovering the layers of her story.');
+        await player.showText(' It\'s a journey of discovery, resilience, and understanding.');
+        await player.showText('As you progress, you will encounter challenges and choices that reveal Zoe\'s trauma history.');
         player.setVariable('AFTER_INTRO', true);
     }
 }

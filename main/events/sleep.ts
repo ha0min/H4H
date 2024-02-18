@@ -8,7 +8,7 @@ export default class DormMusicEvent extends RpgEvent {
         this.setHitbox(60, 50)
         this.attachShape({
             height: 60,
-            width: 50,
+            width: 70,
             positioning: ShapePositioning.Center
         })
         //this.infiniteMoveRoute([ Move.tileRandom() ])
@@ -29,7 +29,10 @@ export default class DormMusicEvent extends RpgEvent {
         await player.showText('... making it easier to manage trauma and stress in one powerful nightly recharge.', {
             talkWith: this
         });
-        // todo: add hp
+        await player.showText('Good News: Mental capacity up 50%!!!', {
+            talkWith: this
+        });
+        player.hp=Math.min(741 * 1.5, 741);
         
     }
 } 
