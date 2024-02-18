@@ -71,40 +71,5 @@ export default class LifeGuardEvent extends RpgEvent {
       }
     );
 
-    // Offering player choices for Zoey's response
-    // const response = await player.showChoices('How do you want to respond?', [
-    //     { text: 'I hope so. You know, just glad it\'s over.', value: 'hopeful' },
-    //     { text: 'Honestly, I\'m not sure. I studied a lot, but you never know with these exams.', value: 'uncertain' }
-    // ], { talkWith: this })
-
-    // switch (response?.value) {
-    //     case 'hopeful':
-    //         await player.showText('Zoey: I hope so. You know, just glad it\'s over.', {
-    //             talkWith: this
-    //         });
-    //         break;
-    //     case 'uncertain':
-    //         await player.showText('Zoey: Honestly, I\'m not sure. I studied a lot, but you never know with these exams.', {
-    //             talkWith: this
-    //         });
-    //         break;
-    //     default:
-    //         // Handle case where no choice is made (if possible, depending on your game's logic)
-    //         console.log('No choice made or unexpected choice value.');
-    //         break;
-    // }
-
-    // // Continue the conversation based on player's choice
-    // await player.showText('Student A: Oh, come on, Zoey. You always say that and then you end up with the top scores. Must be nice not to worry.', {
-    //     talkWith: this
-    // })
-    // await player.showText('Student B: True, but it\'s not just about passing, right? I mean, my parents expect nothing less than an A. Anything else is like failing to them.', {
-    //     talkWith: this
-    // })
-
-    // // Zoey's internal reflection
-    // await player.showText('(thinking) An A... I can\'t even imagine bringing home anything less. The thought alone is suffocating.', {
-    //     talkWith: this
-    // })
   }
 }
