@@ -13,7 +13,7 @@ export default class ProfessorEvent extends RpgEvent {
     }
 
     async onAction(player: RpgPlayer) {
-        const val = player.getVariable('PROFESSOR_TRAUMA')
+        const val = player.getVariable('TALKED_PROFESSOR')
         console.log(val);
         if (val) {
             await player.showText('I have nothing to say to you.', {
@@ -30,6 +30,9 @@ export default class ProfessorEvent extends RpgEvent {
             await player.showText('Can you come back later?', {
                 talkWith: this
             })
+            await player.showText('\(Fine...I will hang around.\)', {
+                talkWith: this
+            })
             return
         }
         console.log('Talk to student', hasTalkToStudent)
@@ -37,7 +40,10 @@ export default class ProfessorEvent extends RpgEvent {
         await player.showText('Congrats, Zoey! You got a B+ in your midterm, which is top quartile!', {
             talkWith: this
         })
-
+        await player.showText('Bad News: Zoe\'s trauma has been triggered...Mental Capacity down 50%', {
+            talkWith: this
+        })
+        player.hp -= 741*0.5;
         player.setVariable('TALKED_PROFESSOR', true)
 
     }
