@@ -4,8 +4,8 @@ const player: RpgPlayerHooks = {
     onConnected(player: RpgPlayer) {
         player.name = 'Zoe'
         player.setComponentsTop<any>([
-            Components.text('{name}\n'),
-            Components.hpBar({}, '{$percent}%')
+            Components.text('{name}'),
+            // Components.hpBar({}, '{$percent}%')
         ])
     },
     onInput(player: RpgPlayer, { input }) {
