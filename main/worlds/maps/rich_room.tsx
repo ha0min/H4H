@@ -66,6 +66,16 @@
    <property name="collision" type="bool" value="true"/>
   </properties>
  </tile>
+ <tile id="158">
+  <properties>
+   <property name="collision" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="159">
+  <properties>
+   <property name="collision" type="bool" value="true"/>
+  </properties>
+ </tile>
  <tile id="168">
   <properties>
    <property name="z" type="int" value="1"/>

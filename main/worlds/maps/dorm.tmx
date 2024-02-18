@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="22">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="24">
  <tileset firstgid="1" source="[Base]BaseChip_pipo.tsx"/>
  <tileset firstgid="1001" source="[A]Water_pipo.tsx"/>
  <tileset firstgid="4073" source="[A]Dirt_pipo.tsx"/>
@@ -48,6 +48,9 @@
    <point/>
   </object>
   <object id="21" name="EV-STUM" x="690.781" y="246.575">
+   <point/>
+  </object>
+  <object id="22" name="EV-SLEEP" x="49.6849" y="132.877">
    <point/>
   </object>
  </objectgroup>

@@ -9,7 +9,7 @@ export default class DormBoardEvent extends RpgEvent {
         //this.infiniteMoveRoute([ Move.tileRandom() ])
         this.speed = Speed.Slow
         this.attachShape({
-            height: 40,
+            height: 20,
             width: 40,
             positioning: ShapePositioning.Center
         })
