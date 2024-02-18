@@ -8,7 +8,7 @@ export default class DormMusicEvent extends RpgEvent {
         this.setHitbox(60, 50)
         this.attachShape({
             height: 60,
-            width: 30,
+            width: 50,
             positioning: ShapePositioning.Center
         })
         //this.infiniteMoveRoute([ Move.tileRandom() ])
@@ -16,6 +16,10 @@ export default class DormMusicEvent extends RpgEvent {
     
     async onAction(player: RpgPlayer) {
         await player.showText('Zoe took a good nap..', {
+            talkWith: this
+            }
+        );
+        await player.showText('...', {
             talkWith: this
             }
         );

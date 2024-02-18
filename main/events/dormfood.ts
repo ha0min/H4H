@@ -14,6 +14,10 @@ export default class DormMusicEvent extends RpgEvent {
             talkWith: this
             }
         );
+        await player.showText('...', {
+            talkWith: this
+            }
+        );
         await player.showText('Coping Technique: Eating healthy foods gives your brain the energy it needs to better handle tough times and improve emotional stability....', {
             talkWith: this
         });
