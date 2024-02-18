@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="6">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="9">
  <tileset firstgid="1" source="school.tsx"/>
  <tileset firstgid="1025" source="[Base]BaseChip_pipo.tsx"/>
  <layer id="1" name="Tile Layer 1" width="25" height="20">
@@ -100,6 +100,15 @@
  </layer>
  <objectgroup id="7" name="Object Layer 1">
   <object id="4" name="startpoint" type="start" x="640.599" y="66.1312">
+   <point/>
+  </object>
+  <object id="6" name="EV-STU2" x="572.603" y="215.068">
+   <point/>
+  </object>
+  <object id="7" name="EV-STU1" x="623.288" y="215.068">
+   <point/>
+  </object>
+  <object id="8" name="EV-PRO" x="278.082" y="147.945">
    <point/>
   </object>
  </objectgroup>
