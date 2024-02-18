@@ -29,6 +29,13 @@
             "y": 0
         },
         {
+            "fileName": "maps/Poolflashback.tmx",
+            "height": 640,
+            "width": 960,
+            "x": -416,
+            "y": 1280
+         },
+         {
             "fileName": "maps/park.tmx",
             "height": 640,
             "width": 800,
