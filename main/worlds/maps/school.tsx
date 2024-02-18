@@ -470,7 +470,7 @@
    <property name="z" type="int" value="1"/>
   </properties>
  </tile>
- <tile id="351">
+  <tile id="351">
   <properties>
    <property name="collision" type="bool" value="true"/>
   </properties>
