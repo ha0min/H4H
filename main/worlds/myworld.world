@@ -13,6 +13,13 @@
             "width": 800,
             "x": -256,
             "y": 640
+        },
+        {
+            "fileName": "maps/dorm.tmx",
+            "height": 640,
+            "width": 800,
+            "x": 320,
+            "y": -640
         }
     ],
     "onlyShowAdjacentMaps": false,
