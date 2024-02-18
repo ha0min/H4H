@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.8" tiledversion="1.8.2" name="[Base]BaseChip_pipo" tilewidth="32" tileheight="32" tilecount="1000" columns="8">
+<tileset version="1.10" tiledversion="1.10.2" name="[Base]BaseChip_pipo" tilewidth="32" tileheight="32" tilecount="1000" columns="8">
  <image source="[Base]BaseChip_pipo.png" width="256" height="4000"/>
  <tile id="0">
   <properties>
@@ -4386,12 +4386,12 @@
  </tile>
  <tile id="827">
   <properties>
-   <property name="collision" type="bool" value="false"/>
+   <property name="collision" type="bool" value="true"/>
   </properties>
  </tile>
  <tile id="828">
   <properties>
-   <property name="collision" type="bool" value="false"/>
+   <property name="collision" type="bool" value="true"/>
   </properties>
  </tile>
  <tile id="829">
@@ -4426,12 +4426,12 @@
  </tile>
  <tile id="835">
   <properties>
-   <property name="collision" type="bool" value="false"/>
+   <property name="collision" type="bool" value="true"/>
   </properties>
  </tile>
  <tile id="836">
   <properties>
-   <property name="collision" type="bool" value="false"/>
+   <property name="collision" type="bool" value="true"/>
   </properties>
  </tile>
  <tile id="837">
