@@ -9,5 +9,5 @@ modules = [
 
 [start]
     map = 'campus'
-    graphic = 'hero'
+    graphic = 'student'
     hitbox = [16, 16]
