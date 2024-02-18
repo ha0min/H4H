@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.10" tiledversion="1.10.2" name="school" tilewidth="32" tileheight="32" tilecount="1024" columns="16">
+<tileset version="1.10" tiledversion="1.10.2" name="[pool]school" tilewidth="32" tileheight="32" tilecount="1024" columns="16">
  <image source="school.png" width="512" height="2048"/>
  <tile id="40">
   <properties>
@@ -118,12 +118,12 @@
  </tile>
  <tile id="91">
   <properties>
-   <property name="z" type="int" value="1"/>
+   <property name="collision" type="bool" value="false"/>
   </properties>
  </tile>
  <tile id="92">
   <properties>
-   <property name="z" type="int" value="1"/>
+   <property name="collision" type="bool" value="false"/>
   </properties>
  </tile>
  <tile id="93">
@@ -621,11 +621,6 @@
    <property name="collision" type="bool" value="true"/>
   </properties>
  </tile>
- <tile id="731">
-  <properties>
-   <property name="collision" type="bool" value="true"/>
-  </properties>
- </tile>
  <tile id="732">
   <properties>
    <property name="collision" type="bool" value="true"/>
@@ -717,36 +712,6 @@
   </properties>
  </tile>
  <tile id="860">
-  <properties>
-   <property name="collision" type="bool" value="true"/>
-  </properties>
- </tile>
- <tile id="888">
-  <properties>
-   <property name="collision" type="bool" value="true"/>
-  </properties>
- </tile>
- <tile id="889">
-  <properties>
-   <property name="collision" type="bool" value="true"/>
-  </properties>
- </tile>
- <tile id="890">
-  <properties>
-   <property name="collision" type="bool" value="true"/>
-  </properties>
- </tile>
- <tile id="904">
-  <properties>
-   <property name="collision" type="bool" value="true"/>
-  </properties>
- </tile>
- <tile id="905">
-  <properties>
-   <property name="collision" type="bool" value="true"/>
-  </properties>
- </tile>
- <tile id="906">
   <properties>
    <property name="collision" type="bool" value="true"/>
   </properties>
