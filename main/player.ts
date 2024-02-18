@@ -2,8 +2,11 @@ import { RpgPlayer, type RpgPlayerHooks, Control, Components } from '@rpgjs/serv
 
 const player: RpgPlayerHooks = {
     onConnected(player: RpgPlayer) {
-        player.name = 'YourName'
-        player.setComponentsTop(Components.text('{name}'))
+        player.name = 'Zoe'
+        player.setComponentsTop<any>([
+            Components.text('{name}\n'),
+            Components.hpBar({}, '{$percent}%')
+        ])
     },
     onInput(player: RpgPlayer, { input }) {
         if (input == Control.Back) {
