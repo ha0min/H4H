@@ -34,6 +34,13 @@
             "width": 800,
             "x": 800,
             "y": 0
+        },
+        {
+            "fileName": "maps/Poolflashback.tmx",
+            "height": 640,
+            "width": 960,
+            "x": -352,
+            "y": 1280
         }
     ],
     "onlyShowAdjacentMaps": false,
